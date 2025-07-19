@@ -1,0 +1,132 @@
+/* Blog Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5dc; /* Beige background */
+    background-image: linear-gradient(rgba(245,245,220,0.85), rgba(245,245,220,0.85)), url('https://images.unsplash.com/photo-1645792298509-7aadfa5b6f49?w=1200&auto=format&fit=crop&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Apply Michroma font to headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Michroma', sans-serif;
+}
+
+/* Apply Michroma to navbar brand */
+.navbar-brand {
+    font-family: 'Michroma', sans-serif;
+    font-weight: bold;
+}
+
+/* Navy Blue Navbar Styling */
+.navbar {
+    background-color: #000080 !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.navbar-toggler {
+    border-color: white !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%28255, 255, 255, 0.75%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27m4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e') !important;
+}
+
+.btn-outline-success {
+    border-color: white !important;
+    color: white !important;
+}
+
+.btn-outline-success:hover {
+    background-color: white !important;
+    color: #000080 !important;
+}
+
+#gambian-flag {
+    display: block;
+    margin: 0 auto 30px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Larger paragraph fonts for better readability */
+p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+/* Larger list text */
+ul, ol {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+}
+
+li {
+    margin-bottom: 0.75rem;
+}
+
+/* Larger text for other content */
+.navbar-brand {
+    font-size: 1.2rem;
+}
+
+.nav-link {
+    font-size: 1.05rem;
+}
+
+.btn {
+    font-size: 1.05rem;
+}
+
+.form-control {
+    font-size: 1.05rem;
+}
+
+/* Larger text for specific elements */
+.small {
+    font-size: 1rem !important;
+}
+
+.text-muted {
+    font-size: 1rem;
+}
+
+/* Larger text for headings */
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
